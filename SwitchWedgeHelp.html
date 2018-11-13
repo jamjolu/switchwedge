@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>SwitchWedgeHelp</title>
+  </head>
+  <body>
+    <h2 style="text-align: center;">SwitchWedge Help</h2>
+    <p style="text-align: center;">Updated&nbsp; May 31, 2014</p>
+    <p style="text-align: center;">New bug fixes - keyboard commands are now based on the Alt-key combos rather than the Win-key combos to avoid conflicts with Windows.</p>
+    <p style="text-align: center;">Look for how-to videos soon!</p>
+    <div style="text-align: center;"><br>
+    </div>
+    <p><strong>What Does SwitchWedge Do</strong>?</p>
+    <p>SwitchWedge can enhance accessibility to many programs and websites, and
+      it can greatly increase the utility of common switch interfaces such as
+      keyboard emulators like the DJ Switch Interface Pro, adapted mice, or
+      adapted joysticks/gamepads. SwitchWedge supports up to 5 switches, and
+      offers enhancements like mouse control, spot scanning and other features
+      that the typical switch interface itself does not offer.</p>
+    <p><strong>Contents</strong>:</p>
+    <p><a href="#setup%20screen">Understanding the Setup Screen</a></p>
+    <p><a href="#operating%20Modes">Operating Modes</a></p>
+    <p><a href="#other%203%20triggers">The Other 3 Switch Triggers</a></p>
+    <p><a href="#set%20custom%20msgs">Custom Key Sequences</a></p>
+    <p><a href="#saving%20setups">Saving Setups</a></p>
+    <p><a href="#shortcuts%20and%20tips">Keyboard Shortcuts and Tips</a></p>
+    <p><a href="#editing%20setup">Editing the Setup File</a></p>
+    <p><a href="#sw%20and%20file%20partners">SwitchWedge and its Associated
+        Files<br>
+      </a></p>
+    <a href="#aboutme">About Me</a><br>
+    <p><br>
+    </p>
+    <p><a id="setup screen"><strong>Understanding the Setup Screen</strong></a>:</p>
+    <div style="text-align: center;"><img alt="SwitchWedge switch interface enhancer setup screen"
+        src="SwitchWedge_.jpg"></div>
+    <p><br>
+    </p>
+    <p>The leftmost column of labels describes what the row of button(s) to the
+      right are for.&nbsp; The topmost label, "<strong>Operating As</strong>,"
+      defines an operating mode for the two leftmost <strong>Switch Triggers</strong>
+      (switch interface inputs.)&nbsp; These operating modes&nbsp; provide the
+      active features that SwitchWedge offers, and they pertain only to the two
+      leftmost triggers as denoted by the box surrounding those buttons. You can
+      choose from the <strong>Switch Trigger</strong> drop down menus which
+      standard switch interface inputs, adapted mouse inputs, or joystick
+      buttons will act to initiate the actions of SwitchWedge. You can also
+      choose 'none' as a Switch Trigger to define that trigger as
+      inactive.&nbsp; The other three <strong>Switch Triggers</strong>
+      (rounding out the other three switch inputs on many switch interfaces) can
+      be redefined to send key sequences as described below in the section: <a
+        href="#set%20custom%20msgs"><span style="font-weight: bold;">Define
+          Custom Key Sequences</span></a>. The row of drop down menus labeled <strong>Key
+        Seq. Sent</strong> represents keystrokes, custom key sequences, or mouse
+      clicks that are sent to the active application as a result of a user
+      hitting a <strong>Switch Trigger</strong>. Depending on the operating
+      mode, the <strong>Key Seq. Sent</strong> menus may be hidden. For
+      example, in <strong>Spot Scan</strong> mode, because only mouse click is
+      sent during spot scanning the <strong>Key Seq. Sent</strong> options are
+      hidden for leftmost 2 triggers.</p>
+    <p>Whenever you change operating modes SwitchWedge will open a help window
+      to remind you of how to use that mode.</p>
+    <p>Whenever you change any of SwitchWedge's settings those changes are
+      automatically saved in a file that accompanies SwitchWedge called, sw.ini.</p>
+    <p><br>
+    </p>
+    <p><a id="operating Modes"><strong>What are the different operating modes</strong>?</a></p>
+    <p>1. - <strong>Single Switch</strong> scanning - the first switch
+      activation repeatedly sends a user defined keystroke associated with the
+      leftmost&nbsp; switch trigger to the active application at the <strong>Scan
+        Rate</strong> (in seconds) to highlight items. A second activation of
+      the same switch sends the next-to-leftmost user defined keystroke to the
+      active application to select the highlighted item. Either of the leftmost
+      triggers will initiate and control the scan sequence. In many browsers a
+      sequence of Tab keys will move the focus around clickable links on a page
+      and Spacebar will select the&nbsp; link that has the focus and follow it
+      just the same as clicking on it,</p>
+    <p>2. - <strong>Two Switch</strong> scanning-&nbsp; The user uses separate
+      switches, one to issue a sequence to highlight an item and one to select
+      an item.</p>
+    <p>3. - <strong>One Click</strong> - the switch activation sends a <span style="font-style: italic;">click</span>
+      to a user defined target. <span style="font-style: italic;">Subsequent
+        switch hits are ignored during the</span> <span style="font-weight: bold;">Mask
+        Time</span><span style="font-style: italic;"> interval that follows the
+        initial trigger</span>. Either of the leftmost triggers can initiate the
+      click action. The click target is defined by hovering the mouse cursor
+      over the intended target and pressing the Alt-1 key combo. (Press and hold
+      the Win key, and then tap the 1 key.) This mode is good for moderating a
+      user who may hit a switch multiple times when once is enough, like in a
+      PowerPoint slide show.</p>
+    <p> 4. - <strong>Two Click</strong> - The trigger sends a click at a first
+      target and then <span style="font-style: italic;">after</span> the <strong>Scan
+        Rate</strong> interval, a second click to a second target. <span style="font-style: italic;">Subsequent
+        triggers are ignored during the</span> Mask Time <span style="font-style: italic;">interval
+        that follows the initial trigger</span>. Either of the leftmost triggers
+      can initiate the click action. The first click target is defined by
+      hovering the mouse cursor over the intended target and pressing the Alt-1
+      key combo, and the second click target is recorded similarly using the
+      Alt-2 key combo. This mode is good for creating a cause/effect activity
+      for a user using something like YouTube where the switch hit starts a
+      video and and the automatic second click will pause it after the Scan Rate
+      interval, and hopefully encouraging the user to keep the activity going by
+      hitting their switch when the activity stops.</p>
+    <p>5. -<strong> Scan Mouse 1</strong> - This mode offers users a good deal
+      of control over the mouse cursor in any program. The trigger initiates a
+      sequence of tool tips that appear near the mouse cursor at the <strong>Scan
+        Rate</strong> which describe mouse actions - either mouse moves: up,
+      right, down, and left; or mouse clicks: click, double click, right click,
+      and drag. The mouse cursor will move at a rate defined by the <strong>Mouse
+        Speed</strong> drop down menu where <span style="font-style: italic;">smaller</span>
+      numbers yield a faster movement. 100 is a good medium slow speed.&nbsp;
+      Either of the leftmost triggers can initiate scan mouse.</p>
+    <p>6. - <strong>Scan Mouse 2</strong> - Same as Scan Mouse 1 but adds the
+      possibility of auditory support for scanning by copying the tool tip text
+      to the clipboard where a helper program like TTSReader, SpeakEasy, Orato,
+      ClipSpeak, or Deskbot can read it out loud. Free clipboard text-to-speech
+      are easily found on the Internet. Either of the leftmost triggers can
+      initiate scan mouse.</p>
+    <p>7. - <strong>Spot Scan 1 and 2</strong> -Spot scan allows you to define
+      up to 10 hot spots that will be scanned in numerical order. Identify the
+      first hotspot by hovering the mouse cursor over the first target and
+      capturing the mouse position with the Alt-1 key combo. The second hotspot
+      is recorded with the Alt-2 combo, and so forth up to the tenth hotspot
+      that is recorded with the Alt-0 key combo. Use Alt-z to clear the spot
+      scan sequence. <strong>Key Trigger</strong> defines which key is used to
+      start or stop scanning which occurs at the <strong>Scan Rate</strong>.
+      Either leftmost trigger can start the scan which sequentially positions
+      the mouse cursor over each spot at the scan rate. A second trigger stops
+      the scan and sends a mouse click to the last mouse position. <strong>Scan
+        Spot 2</strong> allows you to enter auditory cue text for each spot. The
+      cues are spoken by a helper clipboard text-to-speech application like
+      TTSReader,&nbsp; Orato or Deskbot which must be active before beginning
+      spot scanning.</p>
+    <p>8. -&nbsp; <strong>Remap Mode</strong> - sends whatever message you pick
+      from the drop Key Seq. Sent down menus, including a user defined <strong>Custom
+        Key Sequence</strong> as described below. You can set a Mask interval as
+      well.&nbsp; </p>
+	  <p>9. -&nbsp; <strong>Click List Mode</strong> - sends a click to one of up to 10 targets in a list. Each target is recorded in the same manner as with spot scanning. Hover the cursor over a target and use Alt-1 to record the position of the first target. Do the same using Alt-2, Alt-3, and so forth to record each additional target up to Alt-0 for the tenth target. Each switch trigger sends a click to the next target on the list. The list is recycled aftere the last recorded target is clicked. Alt-z resets the list. </p>
+    <p><a id="other 3 triggers"><strong>Those Other Switch Triggers:</strong></a></p>
+    <p>The other 3 Switch Trigger inputs operate as simple key/click sequence
+      re-mappers. By setting a custom key sequence for any input, a user can
+      issue a long sequence of keys and clicks with a single switch activation.
+    </p>
+    <p>Note that the leftmost 2 triggers take precedence of the other 3. In any
+      case, avoid using the same definitions for more than 1 trigger, except for
+      'none'- the no trigger setting.&nbsp;</p>
+    <p align="left"><a id="set custom msgs"><strong>Define Custom Key Sequences</strong></a>:
+      Below the "Set Seq #" buttons is a text field into which you can type
+      anything you want. When you click the Set Seq # button the contents of the
+      text field is assigned to its associated switch trigger. Custom messages
+      can contain special characters like Tab and arrow keys. These characters
+      must be enclosed in braces as in <strong>{Backspace}</strong> for the
+      backspace key, and <strong>{Left}</strong> for the left arrow key. You
+      can also include key combos using special modifiers&nbsp; as in<strong> ^a</strong>
+      for issuing Crtl-A. The special modifiers include:</p>
+    <p align="left"> ! = Alt<br>
+    </p>
+    <p align="left"># = Win <br>
+    </p>
+    <p align="left">+&nbsp; = Shift</p>
+    <p align="left">^ = Control</p>
+    <p align="left">For example: <strong>^p{Enter} </strong>opens the print
+      dialog and prints the open document in many programs.&nbsp; Add a space to
+      the end of a phrase like this: <strong>This is my phrase{space}</strong>&nbsp;&nbsp;</p>
+    <p align="left">Here is more complex example from the setup "Word Helper for
+      WordTalk":<span style="font-weight: bold;"> ^a!of^s25{Enter}{Left}&nbsp; </span>which
+      has the effect of setting the font size of an entire document in Microsoft
+      Word 2003 to 25. This custom message can be translated as a sequence of
+      keyboard commands: <strong>c</strong><strong>tr</strong><strong>l-a</strong>
+      (select all) <strong>alt-</strong><strong>o</strong> (select format menu)
+      <strong>f </strong>(select font) <strong>ctrl-s</strong> (select size) <strong>25</strong>
+      (set size to 25) <strong>Enter </strong>(apply change to font) <strong>Left</strong>
+      (press left arrow to deselect all).<br>
+    </p>
+    You can also send clicks as in <span style="font-weight: bold;">{Click 2}</span>
+    which has the effect of sending a double click. <br>
+    <br>
+    SwitchWedge was created using the incredibly useful but not-so-user-friendly
+    Autohotkey to perform its magic. Let me know if you are having trouble
+    getting some a custom message to do what you want, and I will suggest a
+    solution, if it is possible. There is much more detail at the Autohotkey
+    website on what you can have a button <b>"send"</b> which can be found
+    here: <a href="http://www.autohotkey.com/docs/commands/Send.htm">http://www.autohotkey.com/docs/commands/Send.htm
+      . </a>
+    <p><a id="saving setups"><strong>Saving Setups</strong></a>:</p>
+    <p>You can save named setups to make reconfiguring SwitchWedge for favorite
+      applications easy and quick. The setups are stored in a standard text file
+      called 'sw.ini' that can be easily edited with NotePad. The setup file,
+      sw.ini, must be in the same folder as SwitchWedge.exe. Otherwise when you
+      open SwitchWedge you will encounter a flurry of error messages.
+      SwitchWedge will eventually open and generate a valid sw.ini&nbsp; file
+      with default values. You can edit the sw.ini file with NotePad as
+      described in detail below.</p>
+    <p><a id="shortcuts and tips"><strong>Keyboard Shortcuts and other tips</strong></a>:</p>
+    <p> Press ~&nbsp; or ` to Suspend or Resume&nbsp; input triggers for
+      SwitchWedge. This will allow you to use your keyboard, or mouse for their
+      normal purposes. SwitchWedge does not need to be resumed to record
+      hotspots. You can optionally set SwitchWedge to start with triggers
+      suspended by checking the Start SW Off box. Activating (Resuming) the
+      triggers will also minimize the setup screen. Suspending triggers will
+      restore the setup screen.</p>
+    <p>Press Alt-s key combo to shrink or expand the SwitchWedge window. </p>
+    <p>Press the Alt-t key combo to capture the title of the active window, and
+      to optionally save a setup with this name.</p>
+    <p>Press the "Help" button in SwitchWedge to open this window.</p>
+    <p>The <span style="font-weight: bold;">Slow Send</span> check box
+      activates a slower rate of sending keystrokes from custom messages. This
+      can help by allowing some time between keystrokes, giving programs a
+      chance to process each keystroke. Keystroke sequences may not get
+      processed properly if they are sent too fast.</p>
+    <p><a id="editing setup"><strong>Editing sw.ini (the setup file)</strong></a>:</p>
+    <p>SwitchWedge stores its settings in a simple text file called sw.ini which
+      will open in notepad if you double click it.&nbsp; Every setting and
+      aspect of SwitchWedge has an entry in sw.ini that looks like an equation
+      consisting of a parameter name and a value for that parameter. For
+      example, the name = value associated with mouse speed could be an entry
+      like: mouseSpeed=100</p>
+    <p>There are 40, or so, entries that define all the parameters for any given
+      setup. The beginning of each different saved setup section is denoted in
+      the sw.ini file as a line that has square brackets around the setup name,
+      for example: [swsettings]&nbsp;&nbsp; (The [swsettings] section of the
+      sw.ini file is the only section that is necessary for starting SwitchWedge
+      without error messages. )</p>
+    <p>You can&nbsp; edit any line of the sw.ini file using Notepad, and even
+      delete entire saved setups. You can change any value, but if you change
+      any names, you will surely encounter errors when SwitchWedge re-opens that
+      setup.</p>
+    <p> <span style="font-style: italic;">At this point the only way to
+        eliminate unwanted saved setups is use a text editor like Notepad to
+        delete the section beginning with the line with the square bracketed
+        setup name and ending with the last line entry for that section that has
+        the definition for slowsend.</span> </p>
+    <p>Just make sure you always have a complete [swsettings] section.</p>
+    <p><br>
+    </p>
+    <p><a id="sw and file partners"><strong>SwitchWedge and its associated files</strong></a>:</p>
+    <p>SwitchWedge is packaged as a zip file consisting of four files:
+      SwitchWedge.exe, the SwitchWedge program; sw.ini, the setup file;&nbsp;
+      SwitchWedgeHelp.html, and switchwedge_.jpg the help document and picture
+      resource.</p>
+    <p>All four files must be located in the same folder for everything to work
+      properly.</p>
+    <br>
+    <p><strong><a id="aboutme">About Me</a></strong></p>
+    <p>I am offering SwitchWedge freely - no license. If you would like changes,
+      or have suggestions, corrections, or requests you can contact me at:&nbsp;
+      j a m j o l u @ g m a i l . c o m&nbsp; (remove the spaces between
+      characters, please)</p>
+    <p>Look for SwitchWedge and other freeware downloads, links, and info at:<a
+        href="https://sites.google.com/site/jamjolu/">https://sites.google.com/site/jamjolu/</a>
+    </p>
+    <p>Thanks,</p>
+    <p>Jim Luther</p>
+    <p><br>
+    </p>
+  </body>
+</html>
