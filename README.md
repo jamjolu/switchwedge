@@ -8,4 +8,4 @@ SwitchWedge is an AutoHotKey script that is also compiled to a Windows executabl
 2. SwitchWedge.ahk -- The AutoHotKey source file - sw.ini, SwitchWedge_.jpg, SwitchWedgeHelp.html should be in the same directory at runtime
 3. SwitchWedge.exe -- The Windows executable - sw.ini, SwitchWedge_.jpg, SwitchWedgeHelp.html should be in the same directory at runtime
 4. SwitchWedgeHelp.html -- A help file that explains how to use SwitchWedge
-5. switchWedge.ico -- icon for SwitchWedge included when compiling the ahk to exe (Ahk2Exe.exe)
+5. switchWedge.ico -- icon for SwitchWedge included when compiling the ahk to exe (using Ahk2Exe.exe)
