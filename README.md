@@ -13,7 +13,7 @@ SwitchWedge does not require installation. Just extract the zip file and run swi
 SwitchWedge is an AutoHotKey script that is also compiled to a Windows executable. This repository contains:
 1. sw.ini -- This is a settings file for SwitchWedge and must reside in the same directory as SwitchWedge.exe or SwitchWedge.ahk
 2. SwitchWedge022724.ahk -- The most recent AutoHotKey source file - sw.ini, SwitchWedge_.jpg, SwitchWedgeHelp.html should be in the same directory at runtime
-3. SwitchWedge.exe -- The Windows executable - sw.ini, SwitchWedge_.jpg, SwitchWedgeHelp.html should be in the same directory at runtime
-4. SwitchWedgeHelp.html -- A help file that explains how to use SwitchWedge
+3. SwitchWedge022724.exe -- The most recent Windows executable - sw.ini, SwitchWedge_.jpg, SwitchWedgeHelp.html should be in the same directory at runtime
+4. SwitchWedgeHelp022724.html -- A help file that explains how to use SwitchWedge
 5. switchWedge.ico -- icon for SwitchWedge included when compiling the ahk to exe (using Ahk2Exe.exe)
 6. SwitchWedge_.jpg -- a screenshot of the SwitchWedge controls used for the help page
