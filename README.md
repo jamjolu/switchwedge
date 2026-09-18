@@ -1,6 +1,7 @@
 # switchwedge
 
-![SwitchWedge the multipurpose switch interface enhancer]SwitchWedge 2026-09-18.png
+
+![SwitchWedge the multipurpose switch interface enhancer]SwitchWedge_2026_09_18.png
 
 SwitchWedge - A Windows ability switch enhancer for any switch inteface
 
