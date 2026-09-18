@@ -1,7 +1,7 @@
 # switchwedge
 
 
-![SwitchWedge the multipurpose switch interface enhancer]SwitchWedge_2026_09_18.png
+![SwitchWedge the multipurpose switch interface enhancer]https://github.com/jamjolu/switchwedge/blob/master/SwitchWedge_2026_09_18.png
 
 SwitchWedge - A Windows ability switch enhancer for any switch inteface
 
